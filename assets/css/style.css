@@ -16,6 +16,7 @@ img{
 	width:122px;
 	margin-top: 52px;
 	margin-left: 140px;
+	display: inline-block;
 }
 header{
 	margin-top: 52px;
@@ -25,13 +26,17 @@ header{
 }
 li{
 	display: inline-block;
+	margin-left: 30px;
+}
+.navbar-ul{
+	text-align: right;
+	font-family: "font1";
 }
 .navbar-ul a{
 	color:#707070;
 	font-size: 20px;
 	letter-spacing: 0.2px;
 	line height: 27px;
-	padding: 40px;
 }
 .section-img {
 	width: 1640px; 
@@ -44,6 +49,7 @@ section h1{
 	color: #707070;
 	letter-spacing: 0.4px;
 	margin-bottom: 70px;
+	font-family: "font1";
 }
 .section-title{
 	margin-top: 138px; 
@@ -67,6 +73,10 @@ article h3{
 	color: #707070;
 	margin-left: 12px;
 	margin-top: 20px;
+	font-family: "font1";
+}
+.section-h1{
+	margin-left: 139px
 }
 article img{
 	width: 483px;
@@ -78,15 +88,33 @@ article p{
 	color: #707070;
 	margin-left: 12px;
 	margin-top: 33px;
+	font-family: "font1";
 }
 article a{
 	font-size: 24px;
 	letter-spacing: 0px;
 	color: #707070;
+	display: block;
+	text-align: right;
+	margin-top: 73px;
+	margin-bottom: 35px;
+	margin-right: 13px;
+	font-family: "font1";
+}
+.a-center{
+	font-size: 30px;
+	letter-spacing: 0.3px;
+	color: #707070;
+	display: block;
+	text-align: center;
+	margin-top: 56px;
+	margin-bottom: 53px;
+	font-family: "font1";
 }
 footer{
 	margin-top: 68px;
 	padding-bottom: 78px;
+
 }
 .bg-color{
 	background-color: #2E2E2E;
@@ -95,21 +123,21 @@ footer h5{
 	color:#F2F2F2;
 	font-size: 20px;
 	letter-spacing: 0.2;
-	line-height: 17px;
+	margin-left: 30px;
+	font-family: "font1";
 }
 .footer-ul{
 	color:#F2F2F2;
 	text-decoration: none;
 	font-size: 13px;
 	letter-spacing: 0.13;
-	line-height: 17px;
 	list-style-type: none;
+	font-family: "font1";
 }
 footer a{
 	color:#F2F2F2;
 	font-size: 13px;
 	letter-spacing: 0.13px;
-	line height: 17px;
 }
 footer li{
 	display: block;
@@ -117,4 +145,5 @@ footer li{
 div{
 	display: inline-block;
 	margin-left: 60px;
+	padding: 30px;
 }
